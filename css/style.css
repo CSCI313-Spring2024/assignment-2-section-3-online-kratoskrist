@@ -1,0 +1,154 @@
+body {
+    background-color: #282a36;
+    color: #f8f8f2;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: #44475a !important;
+}
+
+.navbar-brand, .nav-link {
+    color: #f8f8f2 !important;
+}
+
+.nav-link:hover {
+    color: #50fa7b !important;
+}
+
+.bg-dark {
+    background-color: #282a36 !important;
+}
+
+.text-info {
+    color: #bd93f9 !important;
+}
+
+footer {
+    width: 100%;
+    background-color: #282a36;
+    color: #f8f8f2;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
+.text-light {
+    color: #f8f8f2 !important;
+}
+
+h2, h3 {
+    font-weight: bold;
+    color: #50fa7b !important; 
+}
+
+.custom-green {
+    color: #50fa7b !important;
+}
+
+h5 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Adds a subtle black outline */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 5px;
+    border-radius: 5px;
+}
+
+p {
+    color: #f8f8f2;
+}
+
+strong {
+    color: #ff79c6;
+}
+
+.profile-banner {
+    background: url('../images/profile.jpg') center/cover no-repeat;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6)
+}
+
+.profile-banner .container {
+    position: relative;
+    z-index: 1;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.profile-banner .card {
+    margin-bottom: 0;
+}
+
+.fixed-size {
+    width: 100%;
+    height: 250px; /* Adjust height to make all images the same size */
+    max-height: 250px;
+    object-fit: cover; /* Ensures images scale properly without stretching */
+    object-position: center;
+}
+
+/* Add a hover effect to cards */
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Ensure video is responsive */
+.embed-responsive {
+    position: relative;
+    display: block;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.embed-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+    gap: 15px; /* Adds space between icons */
+    margin-top: 10px;
+}
+
+.social-icons img {
+    width: 40px; /* Adjust icon size */
+    height: 40px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
