@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body class="dracula-theme">
+    <div class="page-content">
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">My Website</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header -->
+        <header class="bg-dark text-white text-center py-5">
+            <div class="container">
+                <h1 class="display-4">About Me</h1>
+                <p class="lead">A look into my personal and academic background</p>
+            </div>
+        </header>
+
+        <!-- About Me Content in a Card -->
+        <div class="container mt-4">
+            <div class="card bg-dark text-light shadow-lg p-4">
+                <div class="row">
+                    <!-- Bio Section -->
+                    <div class="col-md-6">
+                        <h2>Who I Am</h2>
+                        <p>
+                            I'm Benjamin Johnsrud, formerly a Precision Agriculture graduate in the Fall of 2023, I am now Computer Science student at NDSU. I have a newfound interest in software development
+                            and web design. Aside from coding, I enjoy drawing, listening to and making music, and playing video games.
+                        </p>
+                    </div>
+
+                    <!-- Image Carousel Section -->
+                    <div class="col-md-6">
+                        <h3>My Interests</h3>
+                        <div id="interestsCarousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/bird.jpg" class="d-block img-fluid fixed-size" alt="Bird">
+                                    <div class="carousel-caption">
+                                        <h5>Drawing of a bird for Inktober 2019</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/guitar.jpg" class="d-block img-fluid fixed-size" alt="Guitar">
+                                    <div class="carousel-caption">
+                                        <h5>Younger me on stage</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/setup1.jpg" class="d-block img-fluid fixed-size" alt="Gaming">
+                                    <div class="carousel-caption">
+                                        <h5>My game room</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/guitardakota.jpg" class="d-block img-fluid fixed-size" alt="Guitar and Dakota">
+                                    <div class="carousel-caption">
+                                        <h5>Playing guitar with my late dog, Dakota</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/haunter.jpg" class="d-block img-fluid fixed-size" alt="Haunter">
+                                    <div class="carousel-caption">
+                                        <h5>Drawing of the Pokemon, Haunter</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/johndeere.jpg" class="d-block img-fluid fixed-size" alt="John Deere">
+                                    <div class="carousel-caption">
+                                        <h5>Myself on an old John Deere model combine</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/hulk.jpg" class="d-block img-fluid fixed-size" alt="Hulk">
+                                    <div class="carousel-caption">
+                                        <h5>A drawing of the superhero, Hulk</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/DivC.jpg" class="d-block img-fluid fixed-size" alt="DCRL">
+                                    <div class="carousel-caption">
+                                        <h5>My team winning first place in our Division of DCRL</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#interestsCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#interestsCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+        &copy; 2025 My Website
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
